@@ -188,3 +188,9 @@ document.getElementById("submit").addEventListener("click", function () {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+// Blog btn updating here
+
+document.getElementById("btn-blog").addEventListener("click", function () {
+  window.location.href = "QA.html";
+});
