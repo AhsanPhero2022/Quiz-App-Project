@@ -48,91 +48,162 @@
     </div>
   </header>
 
-  <section class="m-20 flex ">
+  <section class="m-20 flex flex-col gap-4">
     <!-- The button to open modal -->
-    <label for="my-modal-6" class="btn">open modal</label>
+    <div>
+      <label for="my-modal-6" class="btn btn-outline btn-info">
+        What is the difference between map(), filter(), forEach(), and find()?...
+      </label>
 
 
-    <input type="checkbox" id="my-modal-6" class="modal-toggle" />
-    <div class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-        <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        <div class="modal-action">
-          <label for="my-modal-6" class="btn">Yay!</label>
+      <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+      <div class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">First of all, all these methods are used for arrays. Here are the differences
+            between those:</h3>
+          <p class="py-4">
+            (map), This method returns a new array containing the results of applying a given function to each element
+            of the
+            original array. The original array is not modified.
+            <br><br>
+            (filter), This method returns a new array containing all the elements of the original array that pass a
+            given test
+            function. The original array is not modified.
+            <br><br>
+            (forEach), This method executes a provided function once for each array element. It does not return a new
+            array and does
+            not modify the original array.
+            <br><br>
+            (find), This method returns the first element in the array that satisfies a given test function. It does not
+            modify the
+            original array.
+
+          </p>
+          <div class="modal-action">
+            <label for="my-modal-6" class="btn">Yay!</label>
+          </div>
         </div>
       </div>
     </div>
-    <!-- The button to open modal -->
-    <label for="my-modal-6" class="btn">open modal</label>
 
 
-    <input type="checkbox" id="my-modal-6" class="modal-toggle" />
-    <div class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-        <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        <div class="modal-action">
-          <label for="my-modal-6" class="btn">Yay!</label>
+    <div>
+      <label for="my-modal-5" class="btn btn-outline btn-info">What is difference between Local Storage, session
+        Storage, Cookiese?
+      </label>
+
+
+      <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+      <div class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">All this uses mechanisms for storing data on the client-side in web
+            applications. Here are the differences between them:</h3>
+          <p class="py-4">(localStorage): This mechanism allows you to store data on the client-side that will persist
+            even after the user closes
+            their browser. The data is stored indefinitely until it is explicitly removed by the user or cleared by the
+            application.
+            The data is specific to a domain, meaning that other applications on the same domain cannot access it.
+            <br><br>
+            (sessionStorage): This mechanism allows you to store data on the client-side that will only last for the
+            duration of the
+            user's session. The data is cleared when the user closes their browser or when the session expires. The data
+            is specific
+            to a domain, meaning that other applications on the same domain cannot access it.
+            <br><br>
+            (cookies): This mechanism allows you to store data on the client-side that will persist even after the user
+            closes their
+            browser. Cookies are sent with every request to the domain that set them, meaning that they can be used to
+            maintain
+            state between requests. Cookies can be set with an expiration date, meaning that they can be used to store
+            data for a
+            specific period of time. Cookies are specific to a domain and can be accessed by other applications on the
+            same domain.
+
+          </p>
+          <div class="modal-action">
+            <label for="my-modal-5" class="btn">Yay!</label>
+          </div>
         </div>
       </div>
     </div>
-    <!-- The button to open modal -->
-    <label for="my-modal-6" class="btn">open modal</label>
+
+    <div>
+
+      <label for="my-modal-4" class="btn btn-outline btn-info">
+        What is an event loop and how does it work?
+      </label>
 
 
-    <input type="checkbox" id="my-modal-6" class="modal-toggle" />
-    <div class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-        <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        <div class="modal-action">
-          <label for="my-modal-6" class="btn">Yay!</label>
+      <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+      <div class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">What is an event loop and how does it work!</h3>
+          <p class="py-4">event loop is a hard component of the JavaScript runtime environment. It's responsible for
+            managing the execution of
+            code and handling events in a non-blocking way.
+            <br><br>
+            The event loop is a mechanism that allows JavaScript to handle asynchronous tasks and prevent the UI from
+            becoming
+            unresponsive. It continuously checks a queue of tasks and executes them one by one, allowing JavaScript to
+            handle
+            multiple tasks simultaneously without blocking the thread.
+
+          </p>
+          <div class="modal-action">
+            <label for="my-modal-4" class="btn">Yay!</label>
+          </div>
         </div>
       </div>
     </div>
-    <!-- The button to open modal -->
-    <label for="my-modal-6" class="btn">open modal</label>
+    <div>
+
+      <label for="my-modal-3" class="btn btn-outline btn-info">quizTimer () ...</label>
 
 
-    <input type="checkbox" id="my-modal-6" class="modal-toggle" />
-    <div class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-        <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        <div class="modal-action">
-          <label for="my-modal-6" class="btn">Yay!</label>
+      <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+      <div class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">The quiz timer Function:</h3>
+          <p class="py-4">In this function 'quizTimer' is for counting time. At first, give a condition if dismiss is
+            true then it is a clear
+            interval. then they setInterval first they catch the count id’s innerText. Then they calculate the time and
+            lastly, they
+            set the innerText dynamically. Also using the 'toString' method, dynamically removed or added CSS class.
+          </p>
+          <div class="modal-action">
+            <label for="my-modal-3" class="btn">Yay!</label>
+          </div>
         </div>
       </div>
     </div>
-    <!-- The button to open modal -->
-    <label for="my-modal-6" class="btn">open modal</label>
+    <div>
+
+      <label for="my-modal-2" class="btn btn-outline btn-info">chooseQuiz ()</label>
 
 
-    <input type="checkbox" id="my-modal-6" class="modal-toggle" />
-    <div class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-        <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        <div class="modal-action">
-          <label for="my-modal-6" class="btn">Yay!</label>
+      <input type="checkbox" id="my-modal-2" class="modal-toggle" />
+      <div class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
+          <p class="py-4">In this function the main hero is The three dots in JavaScript spread / rest operator.<br>
+            Then
+            write a function name 'chooseQuiz' with two parameters. Then they find questions to answer and give a
+            condition. Then
+            they loop on the answers again and give a condition if isExist.id equal quiz.id then the answer will be
+            spliced else
+            push the given answers.
+
+          </p>
+          <div class="modal-action">
+            <label for="my-modal-2" class="btn">Yay!</label>
+          </div>
         </div>
       </div>
     </div>
+
     <!-- The button to open modal -->
-    <label for="my-modal-6" class="btn">open modal</label>
 
 
-    <input type="checkbox" id="my-modal-6" class="modal-toggle" />
-    <div class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
-        <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        <div class="modal-action">
-          <label for="my-modal-6" class="btn">Yay!</label>
-        </div>
-      </div>
-    </div>
   </section>
 
 
