@@ -6,7 +6,7 @@ Welcome to the Quiz App, a dynamic and interactive quiz application designed to 
 
 ## Live Demo
 
-[Check out the live version of the Quiz App](https://darling-alfajores-7a3d8a.netlify.app)
+[Check out the live version of the Quiz App](https://quiz-app-purejs.netlify.app)
 
 ## Features
 
